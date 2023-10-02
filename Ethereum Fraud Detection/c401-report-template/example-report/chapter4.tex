@@ -1,0 +1,28 @@
+\chapter{Summary and Conclusion}
+\label{c:conclusion}
+
+We have evaluated a new frame work called Compressed Sensing for image reconstruction
+problem in Radio Interferometry. We have explored the class of algorithms
+called Proximal Gradient methods for efficient algorithms suitable
+for Radio-interferometric data. Finally we concluded that ISTA and FISTA
+algorithms along with their variants gives better performance and shows significant improvement 
+in image visual quality over mainstream deconvolution algorithms like CLEAN. 
+Further analysis, and work by other authors show that FISTA and its 
+variants are capable of competing favourably with traditional image reconstruction methods 
+in radio astronomy in normal scenarios, and will do much better in special cases (like 3D imaging,
+multi-frequency synthesis etc). We have, though a toy model, investigated and identified the core
+problems involved in such an exercise, and have gone on to implement a working code for applying compressed
+sensing to radio interferometric data from the GMRT. Along with collaborators at NCRA, we are
+currently involved in solving the remaining outstanding issues - namely, choosing an optimal penalty parameter,
+fidelity of flux reconstruction, and computational efficiency for large data sets. The code, which is a result
+of this project, will be further developed at NCRA into a full-fledged pipeline for the GMRT data, over the coming
+months. Possibilities for future work include the following:
+\begin{enumerate}
+
+\item  To estimate optimal value of penalty parameter
+\item  To solve full Van Cittert–Zernike equation.
+\item  To create a library of basis matrix.
+\item  Modify the algorithm for gridded Visibilities.
+\item  Modify the C code for all the above cases.
+
+\end{enumerate}

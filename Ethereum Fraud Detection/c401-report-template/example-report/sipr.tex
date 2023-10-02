@@ -1,0 +1,187 @@
+\usepackage[a4paper,portrait,inner=1.25in,outer=0.75in,top=1.125in,bottom=1.125in]{geometry}
+\usepackage[colorlinks=true,urlcolor=black,linkcolor=black]{hyperref}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx} \usepackage{setspace} \usepackage{lastpage} \usepackage{ifthen}
+\usepackage{calc} \usepackage{amssymb}  \usepackage{amsmath}  \usepackage{amsthm} \usepackage{bm}
+
+% uop and cms
+\newcommand{\scms}{\href{http://scms.unipune.ac.in/}{Scientific Computing, Modeling \& Simulation (SCMS)}}
+\renewcommand{\scms}{\href{http://scms.unipune.ac.in/}{Scientific Computing, Modeling \& Simulation}}
+\newcommand{\SCMS}{\href{http://scms.unipune.ac.in/}{SCMS}-\href{http://www.unipune.ac.in/}{SPPU}}
+\newcommand{\uop}{\href{http://www.unipune.ac.in/}{Savitribai Phule Pune University (SPPU)}}
+\renewcommand{\uop}{\href{http://www.unipune.ac.in/}{Savitribai Phule Pune University}}
+\newcommand{\scmslogo}[1]{%
+ \href{http://scms.unipune.ac.in/}{\sf \color{#1}
+ \(
+  \left[
+   \begin{array}{c|c}
+    \mbox{\textbf{S}} & \mbox{\textbf{C}} \\
+    \hline
+    \mbox{\textbf{M}} & \mbox{\textbf{S}}
+   \end{array}
+  \right]^\dagger
+ \)
+ }
+}
+
+% logo header
+\newcommand{\scmshdr}
+ {
+  \noindent
+  \begin{minipage}{0.15\textwidth}
+   % {\LARGE \scmslogo{red}}
+   \includegraphics[width=\textwidth]{20210603-logo-cropped.png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.88\textwidth}
+  \begin{flushright}
+   \textsf{\LARGE \textbf{\scms}}
+
+   \vspace{0.5em}
+   \textsf{\huge {\uop}}
+
+  \end{flushright}
+  \end{minipage}
+ }
+
+% report front page
+\newcommand{\FrontPage}
+ {
+  \newpage
+  \thispagestyle{empty}
+
+  \scmshdr
+
+  \vspace{5em}
+  \begin{flushright}
+   {\huge \textsf{{Master of Technology (M.Tech.)}}}
+
+   \vspace{0.5em}
+   {\huge \textsf{{Programme in Modeling and Simulation}}}
+
+   \vfill
+   {\huge \textsf{Internship Project Report}}
+
+   \vspace{3em}
+   {\huge \textsf{\textbf{\Title}}}
+
+   \vspace{3em}
+   {\huge \textsf{\Author}}
+
+   \vspace{1em}
+   {\huge \textsf{\AuthorID}}
+
+   \vfill
+   {\huge \textsf{Academic Year \AY}}
+  \end{flushright}
+
+  \cleardoublepage
+  % \newpage
+  % ~ \vfill ~
+ }
+
+% report certificate
+\newcommand{\Certificate}
+ {
+  \newpage
+  \thispagestyle{empty}
+
+  \scmshdr
+
+  \setstretch{1.25}
+
+  {\large
+   \vspace{7em} \noindent
+   {\Huge \textsf{\textbf{Certificate}}}
+
+   \vspace{3em} \noindent
+   This is certify that this report titled
+   \begin{quote}
+    \textsf{\textbf{\Title}}
+   \end{quote}
+   authored by
+   \begin{quote}
+    \textsf{\textbf{\Author} (\AuthorID)}
+   \end{quote}
+   describes the project work carried out by the author under our supervision
+   during the period from \textsf{{\DateFrom}} to \textsf{{\DateTo}}.
+   This work represents the project component of the
+   Master of Technology (M.Tech.) Programme in Modeling and Simulation
+   at the Department of \scms, \uop.
+
+   \vspace{9em} \noindent
+   {\sf
+    \begin{minipage}{0.48\textwidth}
+     \AdvisorA
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+     \begin{flushright}
+     \AdvisorB
+     \end{flushright}
+    \end{minipage}
+
+    \vspace{8em} \noindent
+    \begin{minipage}{0.48\textwidth}
+     \AdvisorC
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+     \begin{flushright}
+      \Director
+     \end{flushright}
+    \end{minipage}
+   }
+  }
+
+  \setstretch{1}
+
+  \cleardoublepage
+  % \newpage
+  % ~ \vfill ~
+ }
+
+% author declaration
+\newcommand{\Declaration}
+ {
+  \newpage
+  \thispagestyle{empty}
+
+  \scmshdr
+
+  \setstretch{1.25}
+
+  {\large
+   \vspace{7em} \noindent
+   {\Huge \textsf{\textbf{Author's Declaration}}}
+
+   \vspace{3em} \noindent
+   This document titled
+   \begin{quote}
+    \textsf{\textbf{\Title}}
+   \end{quote}
+   authored by me is an authentic report of the project work carried out by me as part of the
+   Master of Technology (M.Tech.) Programme in Modeling and Simulation
+   at the Department of \scms, \uop.
+   In writing this report, I have taken reasonable and adequate care to ensure that
+   material borrowed from sources such as books, research papers, internet, etc.,
+   is acknowledged as per accepted academic norms and practices in this regard.
+   I have read and understood the University's policy on plagiarism
+   ({\small {\url{http://unipune.ac.in/administration_files/pdf/Plagiarism_Policy_University_14-5-12.pdf}}}).
+
+   \vspace{8em} \noindent
+   ~ \hfill \textsf{\textbf{\Author}}
+
+   ~ \hfill \textsf{\AuthorID}
+
+  }
+
+  \setstretch{1}
+
+  \cleardoublepage
+  % \newpage
+  % ~ \vfill ~
+ }
+
+\pagestyle{headings}
+\raggedbottom

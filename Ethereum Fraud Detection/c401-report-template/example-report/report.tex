@@ -1,0 +1,110 @@
+\documentclass[a4paper,11pt,twoside]{sbk} %%% Do not alter this line
+ \input{sipr}                             %%% Do not alter this line
+
+ %%% <<<< mandatory information about this report ....
+ %%%
+  % report title
+  \newcommand{\Title}{Compressed Sensing for Radio Astronomy}
+
+  % author
+  \newcommand{\Author}{Suraj Meghwani}
+
+  % author's ID at SCMS
+  \newcommand{\AuthorID}{MT1002}
+
+  % academic year of submission
+  \newcommand{\AY}{2011-12}
+
+  % project period
+  \newcommand{\DateFrom}{January 2012} % from
+  \newcommand{\DateTo}{June 2012}      % to
+
+  % advisor 1, name and affiliation
+  \newcommand{\AdvisorA} % set this to {} if not applicable
+   {
+    \textbf{Jayaram Chengalur}, Professor
+
+    National Centre for Radio Astrophysics
+
+    (NCRA-TIFR), Pune, India
+
+   }
+
+  % advisor 2, name and affiliation
+  \newcommand{\AdvisorB} % set this to {} if not applicable
+   {
+    \textbf{Niruj Mohan Ramanujam}, Scientist
+
+    National Centre for Radio Astrophysics
+
+    (NCRA-TIFR), Pune, India
+
+   }
+
+  % advisor from SCMS
+  \newcommand{\AdvisorC}
+   {
+    \textbf{Mihir Arjunwadkar}, Faculty
+
+    \SCMS, Pune, India
+
+   }
+
+  % current SCMS director
+  \newcommand{\Director}
+   {
+    \textbf{Mihir Arjunwadkar}, Head
+
+    \SCMS, Pune, India
+
+   }
+ %%%
+ %%% .... mandatory information about this report >>>>
+
+ % author preferences, packages, macros, colors, etc.
+ \usepackage{nomencl}
+ \usepackage{algpseudocode}
+ \usepackage{algorithm}
+
+ \newcommand{\absval}[1]{\left\lvert #1 \right\rvert}
+ \newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+ \newcommand{\sgn}{\mbox{sgn}}
+ \newcommand{\tr}[1]{\mbox{Tr}\left(#1\right)}
+ \newcommand{\diag}[1]{\mbox{diag}\left(#1\right)}
+ \newcommand{\grad}[2]{\nabla #1\left(#2\right)}
+ \newcommand{\iid}{\textsc{iid}}
+ \newcommand{\cov}[1]{\mbox{Cov}\left(#1\right)}
+ \newcommand{\paper}[3]{#1, \emph{#2}, #3} 
+ \DeclareMathOperator*{\argmax}{arg\,max} % requires \usepackage{amsmath}
+ \DeclareMathOperator*{\argmin}{arg\,min} % requires \usepackage{amsmath}
+ \newcommand{\apriori}{\emph{a priori}}
+
+\begin{document}
+ %%% <<<< mandatory initial pages ....
+  \FrontPage
+  \Certificate
+  \Declaration
+ %%% .... mandatory initial pages >>>>
+
+ \input{abstract}
+ \addcontentsline{toc}{chapter}{Abstract}
+
+ \input{acknowledgements}
+ \addcontentsline{toc}{chapter}{Acknowledgments}
+
+ \tableofcontents
+
+ \input{chapter1} % introduction
+ \input{chapter2} % methods
+ \input{chapter3} % results and discussion
+ \input{chapter4} % summary, conclusion, future work
+
+ \bibliographystyle{abbrv} % some standard bibtex style
+ \bibliography{report}     % should be in the .bib format
+ \addcontentsline{toc}{chapter}{Bibliography}
+
+ % any additional material that belongs to appendices
+ % \appendix
+ % \input{appendix1}
+ % \input{appendix2}
+\end{document}

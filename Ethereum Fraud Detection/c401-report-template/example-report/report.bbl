@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{baron09}
+D.~Baron, M.~Wakin, M.~Duarte, S.~Sarvotham, and R.~Baraniuk.
+\newblock Distributed compressed sensing.
+\newblock {\em arxiv:0901.3403}, Jan 2009.
+
+\bibitem{fista}
+A.~Beck and M.~Teboulle.
+\newblock A fast iterative shrinkage-thresholding algorithm for linear inverse
+  problems.
+\newblock {\em SIAM J. Imaging Science}, 2:183--202, 2009.
+
+\bibitem{wolf}
+M.~Born and E.~Wolf.
+\newblock {\em Principles of Optics}.
+\newblock Cambridge University Press, Cambridge, UK, 1959.
+
+\bibitem{bracewell}
+R.~Bracewell.
+\newblock {\em Fourier Transform and Its Applications}.
+\newblock McGraw-Hill, New York, USA, 1999.
+
+\bibitem{cand07}
+E.~Candes and J.~Romberg.
+\newblock Sparsity and incoherence in compressive sampling.
+\newblock {\em Inverse Problems}, 23:969--985, 2007.
+
+\bibitem{cand05}
+E.~Candes and T.~Tao.
+\newblock Decoding by linear programming.
+\newblock {\em IEEE transactions on Information Theory}, 51(12):4203–4215,
+  2005.
+
+\bibitem{Can106}
+E.~J. Candes, J.~Romberg, and T.~Tao.
+\newblock Robust uncertainty principles: exact signal reconstruction from
+  highly incomplete frequency information.
+\newblock {\em IEEE transactions on Information Theory}, 52(2):489--509, 2006.
+
+\bibitem{Can206}
+E.~J. Candes and T.~Tao.
+\newblock Near-optimal signal recovery from random projections: universal
+  encoding strategies.
+\newblock {\em IEEE transactions on Information Theory}, 52(12):5406--5425,
+  2006.
+
+\bibitem{Com07}
+P.~Combettes and J.-C. Pesquet.
+\newblock Proximal splitting methods in signal processing.
+\newblock In H.~H. Bauschke, R.~S. Burachik, P.~L. Combettes, V.~Elser, D.~R.
+  Luke, and H.~Wolkowicz, editors, {\em Fixed-Point Algorithms for Inverse
+  Problems in Science and Engineering}, volume~49 of {\em Springer Optimization
+  and Its Applications}, pages 185--212. Springer New York, 2011.
+
+\bibitem{david06}
+D.~Donoho.
+\newblock Compressed sensing.
+\newblock {\em IEEE transactions on Information Theory}, 52(4):1289--1306,
+  2006.
+
+\bibitem{guler}
+O.~Guler.
+\newblock On convergence of proximal point algorithm for convex optimization.
+\newblock {\em SIAM J. Control Optimization}, 10:403--419, 1991.
+
+\bibitem{hogbom}
+J.~Hogbom.
+\newblock Aperture synthesis on a non-regular distribution of interferometer
+  baselines.
+\newblock {\em Astronomy and Astrophysics}, 15:417, 1974.
+
+\bibitem{karmarkar}
+N.~Karmarkar.
+\newblock A new polynomial-time algorithm for linear programming.
+\newblock In {\em Proceedings of the Sixteenth Annual ACM Symposium on Theory
+  of Computing}, STOC '84, pages 302--311, New York, NY, USA, 1984. ACM.
+
+\bibitem{lustig06}
+M.~Lustig, D.~Donoho, and J.~Pauly.
+\newblock Rapid mr imaging with compressed sensing and randomly under-sampled
+  3dft trajectories.
+\newblock In {\em 14th Annual Meeting ISMRMSeattle, WA}, 2006.
+
+\bibitem{nestrov}
+Y.~Nesterov.
+\newblock A method for solving convex programming problem with convergence
+  rate.
+\newblock {\em Soviet Math. Dokl.}, 27:372--376, 1983.
+
+\bibitem{ncrabookchap2}
+A.~Rao.
+\newblock Interferometry and aperture synthesis.
+\newblock In J.~N. Chengalur, Y.~Gupta, and K.~Dwarakanath, editors, {\em Low
+  Frequency Radio Astronomy}, chapter~2. National Institute for Radio
+  Astrophysics (NCRA-TIFR), Pune 411007, India, 3 edition, 2007.
+
+\bibitem{gmrt}
+G.~Swarup, S.~Ananthkrishnan, V.~Kapahi, A.~Rao, C.~Subrahmanya, and
+  V.~Kulkarni.
+\newblock Twenty-five years of radio astronomy at tifr.
+\newblock {\em Current Science}, 60:79--94, 1991.
+
+\end{thebibliography}
